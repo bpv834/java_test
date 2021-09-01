@@ -14,7 +14,6 @@ public class Backtracking_14_1 {
         visit=new boolean[n];
         dfs(n,m,0);
 
-
     }
     public static void dfs(int n,int m, int depth){
         if(depth==m){
